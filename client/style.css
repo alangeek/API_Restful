@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: auto 0;
+}
+
+form {
+  margin: 0 auto;
+}
+
+.list {
+  color: #333;
+  font-size: 22px;
+  list-style: none;
+}
+
+li {
+  margin: 20px;
+}
+
+.botao-excluir {
+  padding: 10px;
+  font-size: 14px;
+  background-color: rgb(248, 43, 36);
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botao-editar {
+  padding: 10px;
+  font-size: 14px;
+  background-color: rgb(166, 71, 255);
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
