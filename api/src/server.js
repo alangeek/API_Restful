@@ -9,6 +9,7 @@ const app = express()
 // conexão com o banco de dados
 db.connect()
 
+//adiciona multiplos cross origin
 const allowedOrigins = ['http://127.0.0.1:5500', 'https:alanchristian.co']
 
 // habilita CORS
